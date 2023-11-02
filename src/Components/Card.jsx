@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({estudiante}) => {
   return (
     <div>
-        <h1>Hola, soy una tarjeta</h1>
+      <h2>{estudiante.nombre} de {estudiante.edad} años, ha sido matriculad@ a la materia {estudiante.materia}</h2>
     </div>
   )
 }
